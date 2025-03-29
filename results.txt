@@ -1,0 +1,19 @@
+2025-03-28 11:53:17,833 - __main__ - INFO - Waiting for query from stdin...
+2025-03-28 11:53:17,833 - __main__ - INFO - Received query from stdin: 'Daminozide'
+2025-03-28 11:53:17,833 - __main__ - INFO - Loaded stats: Found hash index with 173252 documents.
+2025-03-28 11:53:17,896 - src.indexer.hash_index - INFO - Loaded hash table with 227807 entries
+2025-03-28 11:53:17,896 - src.search.retrieval - INFO - Using hash-based query processor
+2025-03-28 11:53:17,896 - src.search.hash_query_processor - INFO - Normalized query: 'daminozide'
+2025-03-28 11:53:17,896 - src.search.hash_query_processor - INFO - Query terms after tokenization: ['daminozide']
+2025-03-28 11:53:17,896 - src.search.hash_query_processor - INFO - Searching for query terms: ['daminozide']
+2025-03-28 11:53:17,896 - src.search.hash_query_processor - INFO - Looking up term: 'daminozide'
+2025-03-28 11:53:17,897 - src.search.hash_query_processor - INFO - Found 4 postings for term 'daminozide'
+2025-03-28 11:53:17,897 - src.search.hash_query_processor - INFO - Scored 4 documents
+2025-03-28 11:53:17,897 - src.search.hash_query_processor - INFO - Total matches before limiting: 4
+2025-03-28 11:53:17,897 - src.search.hash_query_processor - INFO - Returning all 4 matches
+2025-03-28 11:53:17,897 - __main__ - INFO - Search completed in 0.0006 seconds
+2025-03-28 11:53:17,897 - __main__ - INFO - Found 4 total matches
+WSJ870108-0012 8.2446
+WSJ880421-0049 6.8488
+WSJ891003-0193 4.6366
+WSJ890905-0094 4.6366
