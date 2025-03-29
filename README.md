@@ -1,4 +1,4 @@
-```markdown
+
 # WSJ Search Engine
 
 ## Overview
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 # (Optional) Install the package
 # python setup.py install
-```
+
 
 ## Usage
 
